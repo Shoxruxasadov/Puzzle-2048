@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- META -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- TITLE -->
+    <title>2048 Puzzle</title>
+    <!-- ICON -->
+    <link href="./img/2048-Puzzle.webp" rel="apple-touch-icon" />
+    <link href="./img/2048-Puzzle.webp" rel="icon" />
+    <!-- Fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- CSS -->
+    <link href="./scss/style.css" rel="stylesheet" />
+    <!-- JS -->
+    <script src="./js/script.js" type="module"></script>
+  </head>
+
+  <body>
+    <a class="refresh" href="/"><i class="fa-solid fa-arrows-rotate"></i></a>
+    <p class="user">
+      <a target="_blank" href="http://www.shoxrux.site/"> www.shoxrux.site </a>
+    </p>
+    <p class="beta">Beta Only PC</p>
+    <div id="game-board"></div>
+    <div id="buttons" class="btn-group">
+      <button onclick="setupInputOnce('ArrowLeft')">
+        <i class="fa-solid fa-caret-left"></i>
+      </button>
+      <button onclick="setupInputOnce('ArrowUp')">
+        <i class="fa-solid fa-caret-up"></i>
+      </button>
+      <button onclick="setupInputOnce('ArrowDown')">
+        <i class="fa-solid fa-caret-down"></i>
+      </button>
+      <button onclick="setupInputOnce('ArrowRight')">
+        <i class="fa-solid fa-caret-right"></i>
+      </button>
+    </div>
+    <h1 id="try-again">Yutqazdingiz!</h1>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
